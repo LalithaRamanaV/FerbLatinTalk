@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital@0;1&family=Varela&family=Varela+Round&display=swap");
+:root {
+  
+
+  --yellow: #f8dc6f;
+  --white: #ffffff;
+  --black: #313d44;
+  --darkGrey: #585858;
+}
+
+* {
+  margin:0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: "Varela Round";
+  background: var(--yellow);
+  color: var(--black);
+  padding: 1rem;
+}
+
+#wrapper {
+  max-width: 640px;
+  margin: 1rem auto;
+}
+
+#translator,
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#translator {
+  padding: 2rem 0;
+}
+
+#main-image {
+  max-width: 240px;
+  text-align: center;
+}
+
+#main-title,
+#main-description {
+  text-align: center;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+#input-text {
+  border: none;
+  border-radius: 12px;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+  align-items:center;
+  text-align:center;
+ font-size:16px;
+  margin-bottom: 16px;
+}
+
+#translate-btn {
+  background: var(--black);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size:16px;
+  margin-bottom: 24px;
+}
+
+#translate-btn:hover {
+  background: var(--darkGrey);
+  transition: 0.1s;
+}
+
+#output-text {
+  color: var(--black);
+   border: none;
+  border-radius: 18px;
+  align-items:center;
+  text-align:center;
+  width: 100%;
+  padding: 16px;
+  outline: none;
+  margin-bottom: 16px;
+  font-size:16px;
+}
+
+#footer {
+  bottom: 0;
+  background-color:#f8dc6f;
+  padding: 1rem 1rem 1rem;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  /* color: #3b82f6; */
+  color:#00b1d2ff;
+  width: 10px;
+  height: 10px;
+  margin: 0.5px;
+  margin-right: 10px;
+  margin-bottom: var(--mb-4);
+}
+.footer-social {
+  margin-bottom: var(--mb-4);
+  padding-top: 10px;
+}
+
+#footer {
+  color:#00b1d2ff;
+  /* padding-top: 10px; */
+    font-size: large !important;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer #copyright {
+  margin-top: 0.5em;
+  font-weight: 500;
+  color: #7d7d7d;
+  font-size: 15px;
+}
+.footer-title {
+  color: #7d7d7d;
+  font-size: 20px;
+  /* padding: 5px; */
+  margin-bottom: 10px;
+}
+a {
+  display: inline;
+}
